@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Sahel;
+  src: url("Sahel.eot");
+  src: url("Sahel.eot?#iefix") format("embedded-opentype"),
+    url("Sahel.woff") format("woff"), url("Sahel.ttf") format("truetype");
+  font-size: 20px;
+}
+
+p,
+input,
+button,
+.center {
+  margin-bottom: 10px;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+}
+.main,
+body,
+.cen-input {
+  display: flex;
+  justify-content: center;
+}
+
+button,
+.main {
+  color: white;
+  border-radius: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: sahel;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("7cdea1acb87e5668fcbf058f936e8322_XL.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 98vh;
+  align-items: center;
+}
+.main {
+  flex-direction: column;
+  width: 33%;
+  padding: 50px 23px;
+  background-color: rgba(0, 0, 0, 0.589);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 119, 255, 0.808);
+  margin-right: 5px;
+}
+button {
+  background-color: green;
+}
+input,
+button,
+button {
+  width: 100%;
+  padding: 6px 10px;
+  border: none;
+  font-size: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.fa-user,.fa-lock {
+  height: 40px;
+  background-color: gray;
+  padding: 11px 13px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.msg-pass,.msg-user{
+  text-align: right;
+  color: red;
+}
+
+input{
+  border: 1px solid white;
+  /* border-color: red; */
+}
+
+/* input::placeholder {  
+  padding-right: 10px; 
+}  */
+.d-none{
+  display: none;
+}
+/* .fa-times{
+  
+  position: relative;
+  color: red;
+  right: 18px;
+  top: 12px;
+  margin-right:-13px ;
+} */
+
+.prp::placeholder {
+  padding-right: 10px; 
+}
